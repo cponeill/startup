@@ -1,0 +1,1 @@
+This is all the basic code needed to create a web application running on Node.js. It is pretty simple to use. It also features Twitters Bootstrap for a basic design and can (should) be changed from there.
