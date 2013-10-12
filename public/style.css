@@ -1,0 +1,8 @@
+html {
+	background-color: white;
+}
+
+h1, p, th {
+	font-family: Arial;
+	color: black;
+}
