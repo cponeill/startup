@@ -5,6 +5,21 @@
 </head>
 
 <body>
-	<h1>Hello and Welcome to SoundsLike</h1>
+
+  <h1>Hello and Welcome to SoundsLike</h1>
+  <script src="http://connect.soundcloud.com/sdk.js"></script>
+  <script>
+    SC.intialize({
+    client_id: 'b7c7098351dca4d9ca65af321eeaffae',
+    redirect_url: 'http://www.cponeill.com'
+});
+
+    SC.connect(function() {
+    SC.get('/me', function(me) {
+    alert('Hello, ' + me.username);
+});
+});
+</script>
+
 </body>
 </html>
